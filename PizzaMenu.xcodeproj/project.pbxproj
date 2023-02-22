@@ -16,6 +16,7 @@
 		190FE787267B70B200BE5B47 /* PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190FE786267B70B200BE5B47 /* PizzaTests.swift */; };
 		19882B7227172841007E9734 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19882B7127172841007E9734 /* Base.swift */; };
 		19882B742717299D007E9734 /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19882B732717299D007E9734 /* Topping.swift */; };
+		20D65B9E29A617C3008EBD3F /* PizzaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D65B9D29A617C3008EBD3F /* PizzaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		190FE786267B70B200BE5B47 /* PizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTests.swift; sourceTree = "<group>"; };
 		19882B7127172841007E9734 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		19882B732717299D007E9734 /* Topping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
+		207B435729A6BF8900CDA3AE /* pizzaData.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = pizzaData.geojson; sourceTree = "<group>"; };
+		20D65B9D29A617C3008EBD3F /* PizzaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 				190FE780267B6E8700BE5B47 /* Menu */,
 				190FE755267B6E4300BE5B47 /* PizzaMenuApp.swift */,
 				190FE757267B6E4300BE5B47 /* ContentView.swift */,
+				20D65B9D29A617C3008EBD3F /* PizzaViewModel.swift */,
 				190FE759267B6E4B00BE5B47 /* Assets.xcassets */,
 				190FE75E267B6E4B00BE5B47 /* Info.plist */,
 				190FE75B267B6E4B00BE5B47 /* Preview Content */,
@@ -117,6 +121,7 @@
 				19882B7127172841007E9734 /* Base.swift */,
 				190FE781267B6E9900BE5B47 /* Pizza.swift */,
 				19882B732717299D007E9734 /* Topping.swift */,
+				207B435729A6BF8900CDA3AE /* pizzaData.geojson */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				19882B7227172841007E9734 /* Base.swift in Sources */,
 				19882B742717299D007E9734 /* Topping.swift in Sources */,
 				190FE756267B6E4300BE5B47 /* PizzaMenuApp.swift in Sources */,
+				20D65B9E29A617C3008EBD3F /* PizzaViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

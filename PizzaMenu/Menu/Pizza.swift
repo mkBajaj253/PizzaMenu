@@ -1,5 +1,8 @@
 import Foundation
 
-struct Pizza {
+struct Pizza: Codable {
     let name: String
+    var base: Base
+    let topping: Topping
  }
+

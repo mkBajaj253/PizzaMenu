@@ -10,12 +10,6 @@ class PizzaTests: XCTestCase {
                                              isVegan: false,
                                              allergens: ["Mustard", "Gluten"])
     // Example toppings
-    private let tomatoSauce = Topping(name: "Tomato sauce", isVegan: true, allergens: [])
-    private let bbqSauce = Topping(name: "Barbecue sauce", isVegan: true, allergens: ["Mustard"])
-    private let mozzarella = Topping(name: "Mozzarella", isVegan: false, allergens: ["Milk"])
-    private let mushroom = Topping(name: "Mushrooms", isVegan: true, allergens: [])
     
-    private let pepperoni = Topping(name: "Pepperoni", isVegan: false, allergens: ["Gluten", "Mustard"])
-    
-    
+    private let sauceTypes = Topping(name: "Sauce", topingType: [TopingType(name: "Tomato Sauce", isVegan: true, allergens: []), TopingType(name: "mustard Sauce", isVegan: true, allergens: ["mutard"])])
 }

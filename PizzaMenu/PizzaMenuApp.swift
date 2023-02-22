@@ -4,7 +4,7 @@ import SwiftUI
 struct PizzaMenuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(pizzaVM: PizzaViewModel())
         }
     }
 }
