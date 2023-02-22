@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1887838D29A675B80018EB98 /* PizzaMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887838C29A675B80018EB98 /* PizzaMenuViewModel.swift */; };
 		190FE756267B6E4300BE5B47 /* PizzaMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190FE755267B6E4300BE5B47 /* PizzaMenuApp.swift */; };
 		190FE758267B6E4300BE5B47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190FE757267B6E4300BE5B47 /* ContentView.swift */; };
 		190FE75A267B6E4B00BE5B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190FE759267B6E4B00BE5B47 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1887838C29A675B80018EB98 /* PizzaMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMenuViewModel.swift; sourceTree = "<group>"; };
 		190FE752267B6E4300BE5B47 /* PizzaMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		190FE755267B6E4300BE5B47 /* PizzaMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaMenuApp.swift; sourceTree = "<group>"; };
 		190FE757267B6E4300BE5B47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		190FE754267B6E4300BE5B47 /* PizzaMenu */ = {
 			isa = PBXGroup;
 			children = (
+				1887838C29A675B80018EB98 /* PizzaMenuViewModel.swift */,
 				190FE780267B6E8700BE5B47 /* Menu */,
 				190FE755267B6E4300BE5B47 /* PizzaMenuApp.swift */,
 				190FE757267B6E4300BE5B47 /* ContentView.swift */,
@@ -232,6 +235,7 @@
 				190FE782267B6E9900BE5B47 /* Pizza.swift in Sources */,
 				19882B7227172841007E9734 /* Base.swift in Sources */,
 				19882B742717299D007E9734 /* Topping.swift in Sources */,
+				1887838D29A675B80018EB98 /* PizzaMenuViewModel.swift in Sources */,
 				190FE756267B6E4300BE5B47 /* PizzaMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
