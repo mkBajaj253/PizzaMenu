@@ -1,0 +1,26 @@
+[
+    {
+    name: "Sauce",
+    type: [{
+    name: "tomato sauce",
+    isVegan: true,
+    allergans: ["mustard", "gluten"]
+    }, {
+    name: "mustard sauce",
+    isVegan: true,
+    allergans: ["mustard", "gluten"]
+    }]
+    },
+    {
+    name: "Cheese",
+    type: [{
+    name: "Mozarella",
+    isVegan: true,
+    allergans: ["gluten"]
+    }, {
+    name: "goat cheese",
+    isVegan: true,
+    allergans: ["mustard", "gluten"]
+    }]
+    }
+]

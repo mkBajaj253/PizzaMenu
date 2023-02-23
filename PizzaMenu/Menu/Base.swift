@@ -1,7 +1,11 @@
 import Foundation
 
-struct Base {
+struct Base: Codable {
     let name: String
     let isVegan: Bool
-    let allergens: [String]
+    var allergens: [String]
 }
+
+//struct Allergens: Codable {
+//    let name: String
+//}
